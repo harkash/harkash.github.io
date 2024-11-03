@@ -51,7 +51,7 @@ module ExternalPosts
         slug = content[:title].downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
         slug = "#{source_name.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')}-#{url.split('/').last}" if slug.empty?
       end
-
+      # slug = content[:title].downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
       path = site.in_source_dir("_posts/#{slug}.md")
       doc = Jekyll::Document.new(
         path, { :site => site, :collection => site.collections['posts'] }
@@ -89,6 +89,7 @@ module ExternalPosts
       html = HTTParty.get(url).body
       parsed_html = Nokogiri::HTML(html)
 
+      # title = parsed_html.at('head title')&.text || ''
       title = parsed_html.at('head title')&.text.strip || ''
       description = parsed_html.at('head meta[name="description"]')&.attr('content') || ''
       body_content = parsed_html.at('body')&.inner_html || ''
