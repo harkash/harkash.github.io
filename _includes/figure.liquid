@@ -4,17 +4,6 @@
 
 <figure
   {% if include.slot %}
-
-    
-        
-          
-    
-
-        
-        Expand All
-    
-    @@ -16,21 +14,17 @@
-  
     slot="{{ include.slot }}"
   {% endif %}
 >
@@ -45,17 +34,6 @@
       {% if include.class %}
         class="{{ include.class }}"
       {% endif %}
-
-    
-          
-            
-    
-
-          
-          Expand Down
-    
-    
-  
       {% if include.width %}
         width="{{ include.width }}"
       {% else %}
@@ -99,6 +77,7 @@
       onerror="this.onerror=null; $('.responsive-img-srcset').remove();"
     >
   </picture>
+
   {% if include.caption %}
     <figcaption class="caption">{{ include.caption }}</figcaption>
   {% endif %}
