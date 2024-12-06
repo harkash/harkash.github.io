@@ -20,3 +20,6 @@ assets/libs/
 node_modules/
 vendor
 .idea
+
+assets/img/.DS_Store
+assets/img/publication_preview/.DS_Store
