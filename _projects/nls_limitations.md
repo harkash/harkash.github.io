@@ -46,13 +46,13 @@ We discover two major reasons for this big drop in performance:
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/clip_project/vocab_sizes.jpg" class="img-fluid rounded z-depth-1 mx-auto d-block" width="80%" %}
+        {% include figure.liquid loading="eager" path="assets/img/clip_project/vocab_sizes.png" class="img-fluid rounded z-depth-1 mx-auto d-block" width="80%" %}
         <div class="caption">
             Figure 2: The vocabulary sizes of wearable datasets relative to vision datasets. 
         </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/clip_project/distributions.jpg" class="img-fluid rounded z-depth-1 mx-auto d-block" width="80%" %}
+        {% include figure.liquid loading="eager" path="assets/img/clip_project/distributions.png" class="img-fluid rounded z-depth-1 mx-auto d-block" width="80%" %}
         <div class="caption">
             Figure 3: Data distributions of three wearable datasets.
         </div>
