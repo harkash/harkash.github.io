@@ -20,6 +20,8 @@ assets/libs/
 node_modules/
 vendor
 .idea
+.vscode/*
 
 assets/img/.DS_Store
 assets/img/publication_preview/.DS_Store
+*.DS_Store
