@@ -95,7 +95,7 @@ We propose two measures to increase text diversity:
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/clip_project/text_diversity.jpg"  class="img-fluid rounded z-depth-1 mx-auto d-block"  width="60%" %}
+        {% include figure.liquid loading="eager" path="assets/img/clip_project/text_diversity.png"  class="img-fluid rounded z-depth-1 mx-auto d-block"  width="60%" %}
         <div class="caption">
             Figure 6: Increasing text diversity in activity descriptions: Additional information about activities leads to better outcomes. 
         </div>
