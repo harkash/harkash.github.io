@@ -19,7 +19,7 @@ news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
-I am a Postdoctoral Research Associate at the Grainger College of Engineering, University of Illinois Urbana-Champaign, working under the mentorship of Prof. Jim Rehg. 
+I am a Postdoctoral Research Associate at the Grainger College of Engineering, University of Illinois Urbana-Champaign, working under the mentorship of [Prof. Jim Rehg](https://rehg.org/). 
 <!-- 
 I am a Postdoctoral Research Associate at the Grainger College of Engineering, University of Illinois Urbana-Champaign (UIUC), working under the mentorship of [Prof. Jim Rehg](https://rehg.org/). -->
 I obtained my PhD from Georgia Institute of Technology, where I was advised by [Prof. 
