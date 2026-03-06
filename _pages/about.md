@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: PhD student in the <a href='https://cba.gatech.edu/'>Computational Behavior Analysis Lab</a>, at Georgia Institute of Technology
+subtitle: 
 
 profile:
   align: right
@@ -19,23 +19,24 @@ news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
-
-I am a final year PhD student with the School of Electrical and Computer Engineering (ECE) at 
-Georgia Institute of Techology, Atlanta. I am advised by [Prof. Thomas Ploetz](https://www.cc.gatech.edu/people/thomas-ploetz) 
-and [Prof. Irfan Essa](http://prof.irfanessa.com/).
-I received my Master's degree in May 2019 from Georgia Tech, where my thesis studied the role of 
-representations in  human activity recognition using wearables. I was advised by [Prof. 
-Thomas Ploetz](https://www.cc.gatech.edu/people/thomas-ploetz) 
-and [Prof. David Anderson](https://www.ece.gatech.edu/faculty-staff-directory/david-v-anderson). 
+I am a Postdoctoral Research Associate at the Grainger College of Engineering, University of Illinois Urbana-Champaign, working under the mentorship of Prof. Jim Rehg. 
+<!-- 
+I am a Postdoctoral Research Associate at the Grainger College of Engineering, University of Illinois Urbana-Champaign (UIUC), working under the mentorship of [Prof. Jim Rehg](https://rehg.org/). -->
+I obtained my PhD from Georgia Institute of Technology, where I was advised by [Prof. 
+Thomas Ploetz](https://www.cc.gatech.edu/people/thomas-ploetz) and [Prof. Irfan Essa](http://prof.irfanessa.com/).
+My dissertation involved the design and development of representation learning approaches for wearable sensors, e.g., accelerometers and gyroscopes, for tasks such as Human Activity Recognition (HAR) and behavior analysis.
+<!-- I received my Master's degree in May 2019 from Georgia Tech, where my thesis studied the role of  -->
+<!-- representations in  human activity recognition using wearables. I was advised by [Prof.  -->
+<!-- Thomas Ploetz](https://www.cc.gatech.edu/people/thomas-ploetz)  -->
+<!-- and [Prof. David Anderson](https://www.ece.gatech.edu/faculty-staff-directory/david-v-anderson).  -->
 I have been supported by funding from the National Science Foundation (through the AI-CARING Institute), Optum AI, and Google.
 
   
 ## Research
 
-My research broadly involves learning representations for time-series data, with a special focus on 
-developing techniques that require minimal supervision. I develop unsupervised and self-supervised 
-learning algorithms for data from wearable sensors, including accelerometers, gyroscopes and intertial measurement units (IMUs).
-Subsequently, I use such representations to analyse human behavior, through movements and activities..
+My research broadly involves learning representations for time-series data, with a focus on developing techniques that require minimal supervision. 
+I develop self-supervised and multi-modal learning algorithms for data from wearable sensors, e.g., accelerometers and PPG.
+Subsequently, I use such representations to analyse health and well-being as well as human behavior.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
