@@ -10,6 +10,18 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
   <link rel="stylesheet" href="/assets/css/style.css">
+  <script>
+    // Old al-folio URLs without their own redirect page (see publications/, cv/, etc.).
+    (function () {
+      const p = location.pathname;
+      const to =
+        p === "/assets/pdf/Short_CV_Haresamudram.pdf" ? "/assets/cv.pdf" :
+        p.startsWith("/news/") ? "/#news" :
+        p.startsWith("/blog/") ? "/blog.html" :
+        null;
+      if (to) location.replace(to);
+    })();
+  </script>
 </head>
 <body>
 <div class="page">

@@ -15,7 +15,9 @@ assets/img/profile.jpg     headshot (square, ~640px)
 assets/cv.pdf              your CV (overwrite to update; links never change)
 assets/favicon*.svg/png    browser tab + iOS home-screen icons
 .nojekyll                  tells GitHub Pages to serve files as-is
-404.html                   shown for broken links
+404.html                   shown for broken links; also forwards old URLs listed in its script
+publications/ cv/ projects/ news/ blog/
+                           redirects from the old al-folio site's URLs, so existing links keep working
 ```
 
 ## Preview locally
