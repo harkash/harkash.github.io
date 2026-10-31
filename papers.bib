@@ -1,0 +1,450 @@
+% ============================================================================
+% Publications for harkash.github.io
+%
+% The website reads this file directly: add an entry here, push, done.
+% Entries can be pasted straight from your CV's .bib. Fields the site uses
+% (all optional):
+%
+%   shorthand = {IMWUT}           badge next to the venue (abbr = {...} also works)
+%   preview   = {cpc.png}        thumbnail in assets/img/pubs/
+%                                 (no preview -> a tile showing the shorthand)
+%   selected  = {true}            show under the "Selected" tab
+%   topic     = {ssl, multimodal} research theme(s), for the filter buttons:
+%                                 ssl = Self-supervised learning
+%                                 multimodal = Sensors & language
+%   tldr      = {One sentence.}   short summary under the authors
+%   doi       = {10.1145/...}     main paper link (or html = {https://...})
+%   pdf       = {https://...}     or a local file, e.g. {assets/pdf/x.pdf}
+%   arxiv     = {2408.12023}      arXiv id
+%   code      = {https://github.com/...}
+%   website   = {https://...}     project page
+%   blog      = {projects/...}    blog post / write-up (adds a "Blog" button)
+%   video, slides, poster = {https://...}
+%   award     = {Best Paper Award}
+%   abstract  = {...}             adds an "Abstract" button
+%
+% Your name is bolded wherever it is wrapped in \textbf{...} (as in your CV),
+% or when it matches CONFIG.self in assets/js/publications.js.
+%
+% Order: years are shown newest first automatically; within a year, papers
+% appear in the order they are listed here.
+% ============================================================================
+
+
+% ------------------------------- 2026 ---------------------------------------
+
+@inproceedings{goldman2025models,
+  title     = {Models Got Talent: Identifying High Performing Wearable Human Activity Recognition Models Without Training},
+  author    = {Goldman, Richard and Komperla, Varun and Pl{\"o}tz, Thomas and \textbf{Haresamudram}, \textbf{Harish}},
+  booktitle = {Proceedings of the 2026 ACM International Symposium on Wearable Computers},
+  series    = {ISWC '26},
+  note      = {Brief paper},
+  year      = {2026},
+  shorthand = {ISWC},
+  preview   = {models_got_talent.png},
+  selected  = {true},
+  arxiv     = {2511.06157},
+  pdf       = {https://arxiv.org/pdf/2511.06157},
+  tldr      = {Predicting how well a HAR model will perform without training it, enabling lightweight neural architecture search.}
+}
+
+@article{xu2026well,
+  title     = {How Well Do Multimodal Models Reason on {ECG} Signals?},
+  author    = {Xu, Maxwell A and \textbf{Haresamudram}, \textbf{Harish} and Liu, Catherine W and Langer, Patrick and Pradeepkumar, Jathurshan and Mao, Wanting and Ferns, Sunita J and Verma, Aradhana and Sun, Jimeng and Schmiedmayer, Paul and others},
+  journal   = {arXiv preprint arXiv:2603.00312},
+  year      = {2026},
+  shorthand = {arXiv},
+  topic     = {multimodal},
+  preview   = {ecg_reasoning.png},
+  selected  = {true},
+  arxiv     = {2603.00312},
+  pdf       = {https://arxiv.org/pdf/2603.00312},
+  tldr      = {A reproducible framework that checks whether a model's ECG reasoning is grounded in the signal and consistent with clinical knowledge.}
+}
+
+% ------------------------------- 2025 ---------------------------------------
+
+@article{mao2025leveraging,
+  title     = {Leveraging Shared Prototypes for a Multimodal Pulse Motion Foundation Model},
+  author    = {Mao, Wanting and Xu, Maxwell A and \textbf{Haresamudram}, \textbf{Harish} and Saha, Mithun and Kumar, Santosh and Rehg, James Matthew},
+  journal   = {arXiv preprint arXiv:2510.09764},
+  year      = {2025},
+  shorthand = {arXiv},
+  topic     = {ssl, multimodal},
+  preview   = {protomm.png},
+  arxiv     = {2510.09764},
+  selected  = {true},
+}
+
+@article{haresamudram2025past,
+  title     = {Past, Present, and Future of Sensor-Based Human Activity Recognition Using Wearables: A Surveying Tutorial on a Still Challenging Task},
+  author    = {\textbf{Haresamudram}, \textbf{Harish} and Tang, Chi Ian and Suh, Sungho and Lukowicz, Paul and Pl{\"o}tz, Thomas},
+  journal   = {Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies},
+  volume    = {9},
+  number    = {2},
+  pages     = {1--44},
+  year      = {2025},
+  publisher = {ACM New York, NY, USA},
+  doi       = {10.1145/3729467},
+  shorthand = {IMWUT},
+  topic     = {ssl, multimodal},
+  preview   = {assessment.png},
+  selected  = {true},
+  arxiv     = {2411.14452},
+  tldr      = {Three decades of sensor-based HAR, from hand-crafted features to LLM-integrated recognition, with a code walkthrough of standard self-supervised methods.}
+}
+
+@inproceedings{haresamudram2025limitations,
+  title     = {Limitations in Employing Natural Language Supervision for Sensor-Based Human Activity Recognition -- And Ways to Overcome Them},
+  author    = {\textbf{Haresamudram}, \textbf{Harish} and Beedu, Apoorva and Rabbi, Mashfiqui and Saha, Sankalita and Essa, Irfan and Pl{\"o}tz, Thomas},
+  booktitle = {Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume    = {39},
+  number    = {1},
+  pages     = {273--281},
+  year      = {2025},
+  shorthand = {AAAI},
+  topic     = {multimodal},
+  preview   = {nls_plot.png},
+  selected  = {true},
+  html      = {https://ojs.aaai.org/index.php/AAAI/article/view/32004},
+  pdf       = {https://ojs.aaai.org/index.php/AAAI/article/download/32004/34159},
+  arxiv     = {2408.12023},
+  blog      = {projects/nls_limitations/},
+  tldr      = {CLIP-style training performs far worse than supervised and self-supervised learning for wearable HAR. We trace this to sensor heterogeneity and a lack of rich activity descriptions, and develop strategies that close much of the gap.}
+}
+
+@article{thukral2025layout,
+  title     = {Layout-Agnostic Human Activity Recognition in Smart Homes through Textual Descriptions Of Sensor Triggers ({TDOST})},
+  author    = {Thukral, Megha and Dhekane, Sourish Gunesh and Hiremath, Shruthi K and \textbf{Haresamudram}, \textbf{Harish} and Pl{\"o}tz, Thomas},
+  journal   = {Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies},
+  volume    = {9},
+  number    = {1},
+  pages     = {1--38},
+  year      = {2025},
+  publisher = {ACM New York, NY, USA},
+  doi       = {10.1145/3712278},
+  shorthand = {IMWUT},
+  topic     = {multimodal},
+  preview   = {tdost.png},
+  arxiv     = {2405.12368},
+  tldr      = {Describing sensor events in natural language yields activity recognition models that transfer to homes with different layouts.}
+}
+
+@inproceedings{haresamudram2025genai4hs,
+  title     = {Generative {AI} and Foundation Models for Human Sensing ({GenAI4HS})},
+  author    = {\textbf{Haresamudram}, \textbf{Harish} and Tang, Chi Ian and Thukral, Megha and Rey, Vitor Fortes and Suh, Sungho and Zhou, Bo and Lukowicz, Paul and Pl{\"o}tz, Thomas},
+  booktitle = {Companion of the 2025 ACM International Joint Conference on Pervasive and Ubiquitous Computing},
+  publisher = {Association for Computing Machinery},
+  pages     = {873--876},
+  numpages  = {4},
+  series    = {UbiComp Companion '25},
+  year      = {2025},
+  doi       = {10.1145/3714394.3750562},
+  shorthand = {UbiComp},
+  topic     = {multimodal},
+  website   = {https://genai4hs.github.io/}
+}
+
+@inproceedings{beedu2025text,
+  title     = {Text Descriptions of Actions and Objects Improve Action Anticipation},
+  author    = {Beedu, Apoorva and \textbf{Haresamudram}, \textbf{Harish} and Essa, Irfan},
+  booktitle = {ICASSP 2025-2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  pages     = {1--5},
+  year      = {2025},
+  organization = {IEEE},
+  doi       = {10.1109/ICASSP49660.2025.10888324},
+  shorthand = {ICASSP},
+  topic     = {multimodal},
+  preview   = {action_anticipation.png}
+}
+
+@article{thukral2023cross,
+  title     = {Cross-Domain {HAR}: Few-Shot Transfer Learning for Human Activity Recognition},
+  author    = {Thukral, Megha and \textbf{Haresamudram}, \textbf{Harish} and Pl{\"o}tz, Thomas},
+  journal   = {ACM Transactions on Intelligent Systems and Technology},
+  volume    = {16},
+  number    = {1},
+  pages     = {1--35},
+  year      = {2025},
+  publisher = {ACM New York, NY},
+  doi       = {10.1145/3704921},
+  shorthand = {TIST},
+  preview   = {cross_domain_har.png}
+}
+
+@misc{kwon2025method,
+  title     = {Method and System for Automatic Extraction of Virtual On-Body Inertial Measurement Units},
+  author    = {Kwon, Hyeokhyen and Abowd, Gregory D and \textbf{Haresamudram}, \textbf{Harish} and Pl{\"o}tz, Thomas and Tong, Eu Gen Catherine and Gao, Yan and Lane, Nicholas},
+  year      = {2025},
+  month     = oct # "~16",
+  publisher = {Google Patents},
+  note      = {US Patent App. 19/022,611},
+  shorthand = {Patent},
+  preview   = {imutube_patent.png}
+}
+
+% ------------------------------- 2024 ---------------------------------------
+
+@article{haresamudram2024towards,
+  title     = {Towards Learning Discrete Representations via Self-Supervision for Wearables-Based Human Activity Recognition},
+  author    = {\textbf{Haresamudram}, \textbf{Harish} and Essa, Irfan and Pl{\"o}tz, Thomas},
+  journal   = {Sensors},
+  volume    = {24},
+  number    = {4},
+  pages     = {1238},
+  year      = {2024},
+  publisher = {Multidisciplinary Digital Publishing Institute},
+  shorthand = {Sensors},
+  topic     = {ssl},
+  preview   = {discretization.png},
+  html      = {https://www.mdpi.com/1424-8220/24/4/1238},
+  tldr      = {Learning discrete representations of human movement through self-supervision improves wearable activity recognition.}
+}
+
+@inproceedings{haresamudram2024washing,
+  title     = {A Washing Machine is All You Need? On the Feasibility of Machine Data for Self-Supervised Human Activity Recognition},
+  author    = {\textbf{Haresamudram}, \textbf{Harish} and Essa, Irfan and Pl{\"o}tz, Thomas},
+  booktitle = {2024 International Conference on Activity and Behavior Computing (ABC)},
+  pages     = {1--10},
+  year      = {2024},
+  organization = {IEEE},
+  doi       = {10.1109/ABC61795.2024.10651688},
+  shorthand = {ABC}
+  topic     = {ssl},
+}
+
+@article{haresamudram2024large,
+  title     = {Large Language Models Memorize Sensor Datasets! Implications on Human Activity Recognition Research},
+  author    = {\textbf{Haresamudram}, \textbf{Harish} and Rajasekhar, Hrudhai and Shanbhogue, Nikhil Murlidhar and Pl{\"o}tz, Thomas},
+  journal   = {arXiv preprint arXiv:2406.05900},
+  year      = {2024},
+  shorthand = {arXiv},
+  topic     = {multimodal},
+  preview   = {llm_memorization.png},
+  arxiv     = {2406.05900}
+}
+
+@inproceedings{haresamudram2024solving,
+  title     = {Solving the Sensor-Based Activity Recognition Problem ({SOAR}): Self-Supervised, Multi-Modal Recognition of Activities from Wearable Sensors},
+  author    = {\textbf{Haresamudram}, \textbf{Harish} and Tang, Chi Ian and Suh, Sungho and Lukowicz, Paul and Pl{\"o}tz, Thomas},
+  booktitle = {Companion of the 2024 on ACM International Joint Conference on Pervasive and Ubiquitous Computing},
+  publisher = {Association for Computing Machinery},
+  pages     = {1004--1007},
+  numpages  = {4},
+  series    = {UbiComp '24},
+  year      = {2024},
+  doi       = {10.1145/3675094.3677562},
+  shorthand = {UbiComp},
+  topic     = {ssl, multimodal},
+  preview   = {soar_2024.png},
+  website   = {https://sites.google.com/view/soar-tutorial-ubicomp2024/home}
+}
+
+% ------------------------------- 2023 ---------------------------------------
+
+@inproceedings{haresamudram2023investigating,
+  title     = {Investigating Enhancements to Contrastive Predictive Coding for Human Activity Recognition},
+  author    = {\textbf{Haresamudram}, \textbf{Harish} and Essa, Irfan and Pl{\"o}tz, Thomas},
+  booktitle = {2023 IEEE International Conference on Pervasive Computing and Communications (PerCom)},
+  pages     = {232--241},
+  year      = {2023},
+  organization = {IEEE},
+  doi       = {10.1109/PerCom56429.2023.10099197},
+  shorthand = {PerCom},
+  topic     = {ssl},
+  preview   = {enhanced_cpc.png}
+}
+
+@inproceedings{dhekane2023much,
+  title     = {How Much Unlabeled Data is Really Needed for Effective Self-Supervised Human Activity Recognition?},
+  author    = {Dhekane, Sourish Gunesh and \textbf{Haresamudram}, \textbf{Harish} and Thukral, Megha and Pl{\"o}tz, Thomas},
+  booktitle = {Proceedings of the 2023 ACM International Symposium on Wearable Computers},
+  publisher = {Association for Computing Machinery},
+  pages     = {66--70},
+  numpages  = {5},
+  series    = {ISWC '23},
+  year      = {2023},
+  doi       = {10.1145/3594738.3611366},
+  shorthand = {ISWC},
+  topic     = {ssl},
+  preview   = {unlabeled_data.png}
+}
+
+@inproceedings{haresamudram2023investigatingbehavior,
+  title     = {Investigating Self-Supervised Learning for Predicting Stress and Stressors from Passive Sensing},
+  author    = {\textbf{Haresamudram}, \textbf{Harish} and Suh, Jina and Hernandez, Javier and Butler, Jenna and Chaudhry, Ahad and Yang, Longqi and Saha, Koustuv and Czerwinski, Mary},
+  booktitle = {2023 11th International Conference on Affective Computing and Intelligent Interaction Workshops and Demos (ACIIW)},
+  pages     = {1--8},
+  year      = {2023},
+  organization = {IEEE},
+  doi       = {10.1109/ACIIW59127.2023.10388191},
+  shorthand = {ACII}
+  topic     = {ssl},
+}
+
+@inproceedings{haresamudram2023solving,
+  title     = {Solving the Sensor-Based Activity Recognition Problem ({SOAR}): Self-Supervised, Multi-Modal Recognition of Activities from Wearable Sensors},
+  author    = {\textbf{Haresamudram}, \textbf{Harish} and Tang, Chi Ian and Suh, Sungho and Lukowicz, Paul and Pl{\"o}tz, Thomas},
+  booktitle = {Adjunct Proceedings of the 2023 ACM International Joint Conference on Pervasive and Ubiquitous Computing \& the 2023 ACM International Symposium on Wearable Computing},
+  pages     = {759--761},
+  year      = {2023},
+  doi       = {10.1145/3594739.3605102},
+  shorthand = {UbiComp},
+  topic     = {ssl, multimodal},
+  preview   = {soar_2023.png},
+  website   = {https://sites.google.com/view/soar-tutorial-ubicomp2023/home}
+}
+
+% ------------------------------- 2022 ---------------------------------------
+
+@article{haresamudram2022assessing,
+  title     = {Assessing the State of Self-Supervised Human Activity Recognition Using Wearables},
+  author    = {\textbf{Haresamudram}, \textbf{Harish} and Essa, Irfan and Pl{\"o}tz, Thomas},
+  journal   = {Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies},
+  volume    = {6},
+  number    = {3},
+  pages     = {1--47},
+  year      = {2022},
+  publisher = {ACM New York, NY, USA},
+  doi       = {10.1145/3550299},
+  shorthand = {IMWUT},
+  topic     = {ssl},
+  preview   = {assessment.png}
+}
+
+@inproceedings{ahmed2022clustering,
+  title     = {Clustering of Human Activities from Wearables by Adopting Nearest Neighbors},
+  author    = {Ahmed, Abrar and \textbf{Haresamudram}, \textbf{Harish} and Pl{\"o}tz, Thomas},
+  booktitle = {Proceedings of the 2022 ACM International Symposium on Wearable Computers},
+  pages     = {1--5},
+  year      = {2022},
+  doi       = {10.1145/3544794.3558477},
+  shorthand = {ISWC},
+  topic     = {ssl},
+  preview   = {clustering.png}
+}
+
+@inproceedings{bin2022personalized,
+  title     = {A Personalized Approach for Developing a Snacking Detection System Using Earbuds in a Semi-Naturalistic Setting},
+  author    = {Bin Morshed, Mehrab and \textbf{Haresamudram}, \textbf{Harish} and Bandaru, Dheeraj and Abowd, Gregory D and Pl{\"o}tz, Thomas},
+  booktitle = {Proceedings of the 2022 ACM International Symposium on Wearable Computers},
+  pages     = {11--16},
+  year      = {2022},
+  doi       = {10.1145/3544794.3558469},
+  shorthand = {ISWC}
+}
+
+% ------------------------------- 2021 ---------------------------------------
+
+@article{haresamudram2021contrastive,
+  title     = {Contrastive Predictive Coding for Human Activity Recognition},
+  author    = {\textbf{Haresamudram}, \textbf{Harish} and Essa, Irfan and Pl{\"o}tz, Thomas},
+  journal   = {Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies},
+  volume    = {5},
+  number    = {2},
+  pages     = {1--26},
+  year      = {2021},
+  publisher = {ACM New York, NY, USA},
+  doi       = {10.1145/3463506},
+  shorthand = {IMWUT},
+  topic     = {ssl},
+  preview   = {cpc.png}
+}
+
+@article{kwon2021imutubemagazine,
+  title     = {Can You See It? Good, So We Can Sense It!},
+  author    = {Kwon, Hyeokhyen and Tong, Catherine and \textbf{Haresamudram}, \textbf{Harish} and Gao, Yan and Abowd, Gregory D. and Lane, Nicholas D. and Pl{\"o}tz, Thomas},
+  journal   = {GetMobile: Mobile Comp. and Comm.},
+  issue_date = {June 2021},
+  publisher = {Association for Computing Machinery},
+  address   = {New York, NY, USA},
+  volume    = {25},
+  number    = {2},
+  issn      = {2375-0529},
+  month     = {sep},
+  pages     = {38--42},
+  numpages  = {5},
+  year      = {2021},
+  doi       = {10.1145/3486880.3486891},
+  shorthand = {GetMobile},
+  preview   = {imutube.png}
+}
+
+@inproceedings{nguyen2021personalization,
+  title     = {Personalization Models for Human Activity Recognition with Distribution Matching-Based Metrics},
+  author    = {Nguyen, Huy Thong and Kwon, Hyeokhyen and \textbf{Haresamudram}, \textbf{Harish} and Peterson, Andrew F and Pl{\"o}tz, Thomas},
+  booktitle = {Deep Learning for Human Activity Recognition: Second International Workshop, DL-HAR 2020, Held in Conjunction with IJCAI-PRICAI 2020, Kyoto, Japan, January 8, 2021, Proceedings 2},
+  pages     = {43--56},
+  year      = {2021},
+  organization = {Springer},
+  doi       = {10.1007/978-981-16-0575-8_4},
+  shorthand = {DL-HAR}
+}
+
+% ------------------------------- 2020 ---------------------------------------
+
+@article{kwon2020imutube,
+  title     = {{IMUTube}: Automatic Extraction of Virtual On-Body Accelerometry from Video for Human Activity Recognition},
+  author    = {Kwon, Hyeokhyen and Tong, Catherine and \textbf{Haresamudram}, \textbf{Harish} and Gao, Yan and Abowd, Gregory D and Lane, Nicholas D and Pl{\"o}tz, Thomas},
+  journal   = {Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies},
+  volume    = {4},
+  number    = {3},
+  pages     = {1--29},
+  year      = {2020},
+  publisher = {ACM New York, NY, USA},
+  doi       = {10.1145/3411841},
+  shorthand = {IMWUT},
+  preview   = {imutube.png}
+}
+
+@inproceedings{haresamudram2020masked,
+  title     = {Masked Reconstruction Based Self-Supervision for Human Activity Recognition},
+  author    = {\textbf{Haresamudram}, \textbf{Harish} and Beedu, Apoorva and Agrawal, Varun and Grady, Patrick L and Essa, Irfan and Hoffman, Judy and Pl{\"o}tz, Thomas},
+  booktitle = {Proceedings of the 2020 International Symposium on Wearable Computers},
+  pages     = {45--49},
+  year      = {2020},
+  doi       = {10.1145/3410531.3414306},
+  shorthand = {ISWC},
+  topic     = {ssl},
+  preview   = {masked_reconstruction.png}
+}
+
+% ------------------------------- 2019 ---------------------------------------
+
+@inproceedings{haresamudram2019role,
+  title     = {On the Role of Features in Human Activity Recognition},
+  author    = {\textbf{Haresamudram}, \textbf{Harish} and Anderson, David V and Pl{\"o}tz, Thomas},
+  booktitle = {Proceedings of the 23rd International Symposium on Wearable Computers},
+  pages     = {78--88},
+  year      = {2019},
+  doi       = {10.1145/3341163.3347727},
+  shorthand = {ISWC},
+  topic     = {ssl},
+  preview   = {on_the_role.png}
+}
+
+% ------------------------------- 2017 ---------------------------------------
+
+@inproceedings{dhanush2017factor,
+  title     = {Factor Analysis Methods for Joint Speaker Verification and Spoof Detection},
+  author    = {Dhanush, BK and Suparna, S and Aarthy, R and Likhita, C and Shashank, D and \textbf{Harish}, \textbf{H} and Ganapathy, Sriram},
+  booktitle = {2017 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  pages     = {5385--5389},
+  year      = {2017},
+  organization = {IEEE},
+  doi       = {10.1109/ICASSP.2017.7953185},
+  shorthand = {ICASSP},
+  preview   = {asv_spoof.png}
+}
+
+@inproceedings{kumar2017iitg,
+  title     = {{IITG-Indigo} System for {NIST} 2016 {SRE} Challenge},
+  author    = {Kumar, Nagendra and Das, Rohan Kumar and Jelil, Sarfaraz and Dhanush, BK and \textbf{Kashyap}, \textbf{H} and Murty, K Sri Rama and Ganapathy, Sriram and Sinha, Rohit and Prasanna, SR Mahadeva},
+  booktitle = {Proceedings of the Annual Conference of the International Speech Communication Association, INTERSPEECH},
+  volume    = {2017},
+  pages     = {2859--2863},
+  year      = {2017},
+  organization = {International Speech Communication Association},
+  doi       = {10.21437/Interspeech.2017-1307},
+  shorthand = {Interspeech}
+}

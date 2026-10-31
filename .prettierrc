@@ -1,8 +1,0 @@
-{
-  "plugins": [
-	"@shopify/prettier-plugin-liquid",
-	"prettier-plugin-tailwindcss"
-  ],
-  "printWidth": 150,
-  "trailingComma": "es5"
-}

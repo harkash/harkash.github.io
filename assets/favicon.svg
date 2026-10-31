@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Three-axis accelerometer traces (x, y, z) -->
+  <rect width="32" height="32" rx="8" fill="#881337"/>
+  <g fill="none" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+    <polyline points="5,11 9,8 12,12 15,7 19,11 23,8 27,10" stroke="#ffb547"/>
+    <polyline points="5,17 8,15 12,19 16,14 19,18 23,15 27,17" stroke="#7fe0a8"/>
+    <polyline points="5,23 9,21 12,25 16,22 20,26 23,21 27,23" stroke="#ffffff"/>
+  </g>
+</svg>
