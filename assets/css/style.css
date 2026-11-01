@@ -140,7 +140,6 @@ p { margin: 0 0 1rem; }
 .nav { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 0.25rem 1.4rem; font-size: 0.9rem; }
 .nav a { color: var(--muted); }
 .nav a:hover { color: var(--text); text-decoration: none; }
-.nav .nav-cv { color: var(--accent); font-weight: 500; }
 
 /* ---------- Layout ---------- */
 
